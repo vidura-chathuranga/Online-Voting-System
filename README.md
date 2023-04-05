@@ -8,4 +8,4 @@ the system. We created category tab for various fields and from that, voters can
 vote from choosing the relevant field.
 
 
-This project is done by our team as our First year Second year project
+This project is done by our team as our First year Second semester project
