@@ -1,0 +1,191 @@
+ 
+.card-body {
+    width: 460px;
+    padding: 10px;
+    border: 1px solid gray;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: rgb(224, 220, 228);
+     
+  }
+  .form-control{
+      width: 70%;
+      height: 20px;
+  }
+  .btn1{
+
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+        padding: 10px 22px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 3px 2px;
+        cursor: pointer;
+        border-radius: 25px;
+      }
+  .btn2 {
+    background-color: #4042df;
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 3px;
+
+  }
+  .btn3{
+      background-color: rgb(204, 49, 49);
+      border: none;
+      color: white;
+      cursor: pointer;
+      padding: 3px;
+  }
+   
+   body{
+    margin:10px 0px 10px 0px;
+}
+.nav{
+    list-style-type: none;
+    /* width: 100%; */
+    background-color: rgb(105, 106, 120);
+    overflow: hidden;
+    font-size: larger;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+    overflow: auto;
+}
+
+li{
+    display: inline;
+    display: block;
+    padding: 10px 0;
+}
+
+li a{
+    text-decoration:none;
+    text-align: center;
+    color:white;
+    padding: 0px 55px 0px 55px;
+
+}
+li a:hover{
+
+    background-color: rgb(196, 169, 128);
+    padding: 20px 25px 20px 25px;
+}
+/* li a.active{
+    background-color: rgb(153, 153, 150);
+    padding:30px 55px 20px 55px;
+    
+} */
+/* nav bar dividing */
+.menu{
+    width: 16.66%;
+    float: left;
+}
+
+/* search bar */
+.searchform {
+    width: 100px;
+    margin: 0px 8px 0px 0px;
+    height: 15px;
+    
+}
+
+/* search bar rounded */
+.rounded {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 55px;
+}
+
+
+/* for logo class*/
+.logo{
+    padding-top: 5px;
+    display: block;
+    height: 112px;
+    width: 115px;
+
+}
+#myvoteheading{
+    margin:0;
+    padding:0;
+    font-family:'Roboto', sans-serif ;
+}
+#myvotesubheading{
+    padding-top: 1px;
+    font-family: 'Roboto', sans-serif Impact, 'Arial Narrow Bold', sans-serif;
+    margin-top: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(150, 161, 216);
+    color: white;
+    border: 2px solid black;
+  }
+.headerrow{
+    display: flex;
+    flex-wrap: wrap;
+    /* background-image: url('../Images/background.png'); */
+    margin: 5px 5px 0 5px;
+    background-color: #c7c2d6;
+}  
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-cols{
+    width:31%;
+    padding: 0 15px;
+}
+.scociallinks a{
+    display: inline;
+    height: 15px;
+    width:15px;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    padding:5px;
+
+}
+/* For headig DIV tags */
+.heading-cols{
+    width:32.5%;
+    padding: 0px 10px 0px 0px;
+}
+/* Buttons[login signup] */
+#loginsignup{
+    vertical-align: middle;
+    width:100px;
+    height:35px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    margin-right: 8px;
+    margin-bottom: 25px;
+    background-color: lightskyblue;
+}
+#loginsignup:hover{
+    background-color: lightgreen;
+}
+/* profile Button */
+#profilebtn{
+    vertical-align:top;
+    margin-left: 10px;
+}
+/* div{
+    border:0.2px solid black;
+} */
+
+ 
+ 
+
+
+
+ 

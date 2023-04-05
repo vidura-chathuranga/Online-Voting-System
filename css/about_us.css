@@ -1,0 +1,194 @@
+body{
+    margin:10px 0px 10px 0px;
+}
+.nav{
+    list-style-type: none;
+    /* width: 100%; */
+    background-color: rgb(105, 106, 120);
+    overflow: hidden;
+    font-size: larger;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    padding: 10px;
+    margin: 0px 0px 20px 0px;
+    overflow: auto;
+  }
+
+li{
+    display: inline;
+    display: block;
+    padding: 10px 0;
+}
+
+li a{
+    text-decoration:none;
+    text-align: center;
+    color:white;
+    padding: 0px 55px 0px 55px;
+
+}
+li a:hover{
+
+    background-color: rgb(196, 169, 128);
+    padding: 20px 25px 20px 25px;
+}
+/* li a.active{
+    background-color: rgb(153, 153, 150);
+    padding:30px 55px 20px 55px;
+    
+} */
+/* nav bar dividing */
+.menu{
+    width: 16.66%;
+    float: left;
+}
+
+/* search bar */
+.searchform {
+    width: 100px;
+    margin: 0px 8px 0px 0px;
+    height: 15px;
+    
+}
+
+/* search bar rounded */
+.rounded {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 55px;
+}
+
+
+/* for logo class*/
+.logo{
+    padding-top: 5px;
+    display: block;
+    height: 112px;
+    width: 115px;
+
+}
+#myvoteheading{
+    margin:0;
+    padding:0;
+    font-family:'Roboto', sans-serif ;
+}
+#myvotesubheading{
+    padding-top: 1px;
+    font-family: 'Roboto', sans-serif Impact, 'Arial Narrow Bold', sans-serif;
+    margin-top: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(150, 161, 216);
+    color: white;
+    border: 2px solid black;
+  }
+.headerrow{
+    display: flex;
+    flex-wrap: wrap;
+    background-image: url('../Images/background.png');
+    margin: 5px 5px 0 5px;
+}  
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-cols{
+    width:31%;
+    padding: 0 15px;
+}
+.scociallinks a{
+    display: inline;
+    height: 15px;
+    width:15px;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    padding:5px;
+
+}
+/* For headig DIV tags */
+.heading-cols{
+    width:32.5%;
+    padding: 0px 10px 0px 0px;
+}
+
+/*contact us class*/
+.contact_box{
+    width: 300px;
+    background: #ffffff;
+    margin: 5% auto;
+    padding: 25px 0;
+    color: rgb(3, 3, 3);
+}
+/* Buttons[login signup] */
+#loginsignup{
+    vertical-align: middle;
+    width:100px;
+    height:35px;
+    border: 2px solid black;
+    border-radius: 5%;
+    padding: 5px;
+    margin-right: 8px;
+    margin-bottom: 25px;
+    background-color: lightskyblue;
+}
+#loginsignup:hover{
+    background-color: lightgreen;
+}
+/* profile Button */
+#profilebtn{
+    vertical-align:top;
+    margin-left: 10px;
+}
+/* div{
+    border:0.2px solid black;
+} */
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.cols{
+    width:21.5%;
+    border:1px solid black;
+    padding:5px;
+}
+#cols1:hover
+{
+    background-color: rgb(243, 228, 206);
+}
+#cols2:hover
+{
+    background-color: rgb(216, 236, 195);
+}
+#cols3:hover
+{
+    background-color: rgb(184, 187, 247);
+}
+#cols4:hover
+{
+    background-color: rgb(170, 249, 223);
+}
+.cols h3{
+    text-align: center;
+} 
+ p.ex1 {
+    font-size: 40px;
+    line-height: 1.5cm; 
+    font-family: 'Roboto', sans-serif;
+
+    
+}
+  p.ex2 {
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    
+
+  }
+
+  /* div{
+    border:0.2px solid black;
+}     */
+

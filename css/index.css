@@ -1,0 +1,297 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+
+body{
+    margin:10px 0px 10px 0px;
+    background-image: url('../Images/background.png');
+}
+.nav{
+    list-style-type: none;
+    /* width: 100%; */
+    background-color: rgb(105, 106, 120);
+    overflow: hidden;
+    font-size: larger;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    padding: 10px;
+    margin: 0px 0px 40px 0px;
+    overflow: auto;
+}
+
+li{
+    display: inline;
+    display: block;
+    padding: 10px 0;
+}
+
+li a{
+    text-decoration:none;
+    text-align: center;
+    color:white;
+    padding: 0px 55px 0px 55px;
+
+}
+li a:hover{
+
+    background-color: rgb(196, 169, 128);
+    padding: 20px 25px 20px 25px;
+}
+/* li a.active{
+    background-color: rgb(153, 153, 150);
+    padding:30px 55px 20px 55px;
+    
+} */
+/* nav bar dividing */
+.menu{
+    width: 16.66%;
+    float: left;
+}
+
+/* search bar */
+.searchform {
+    width: 100px;
+    margin: 0px 8px 0px 0px;
+    height: 15px;
+    
+}
+
+/* search bar rounded */
+.rounded {
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    border-radius: 55px;
+}
+
+
+/* for logo class*/
+.logo{
+    padding-top: 5px;
+    display: block;
+    height: 112px;
+    width: 115px;
+
+}
+#myvoteheading{
+    margin:0;
+    padding:0;
+    font-family:'Roboto', sans-serif ;
+}
+#myvotesubheading{
+    padding-top: 1px;
+    font-family: 'Roboto', sans-serif Impact, 'Arial Narrow Bold', sans-serif;
+    margin-top: 1px;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: rgb(150, 161, 216);
+    color: white;
+    border: 2px solid black;
+  }
+.headerrow{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 5px 5px 0 5px;
+    background-color: #c7c2d6;
+}  
+.row{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.footer-cols{
+    width:33.2%;
+    
+}
+.scociallinks a{
+    display: inline;
+    height: 15px;
+    width:15px;
+    text-align: center;
+    border-radius: 50%;
+    color: black;
+    padding:5px;
+
+}
+/* For headig DIV tags */
+.heading-cols{
+    width:32.5%;
+    padding: 0px 10px 0px 0px;
+}
+/* Buttons[login signup] */
+
+/* login name */
+.loginName{
+    font-size:20px;
+    display:inline-block;
+    margin-top:15px;
+    font-weight:bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#loginsignup{
+    margin-top:20px;
+    width:100px;
+    height:35px;
+    padding: 5px;
+    float:right;
+    background-color: lightskyblue;
+    cursor: pointer;
+}
+#loginsignup:hover{
+    /* background-color: rgb(235, 164, 152); */
+    color:red;
+}
+/* profile Button */
+#profilebtn{
+    vertical-align:top;
+    margin-left: 10px;
+    margin-top: 8px;
+}
+
+/* body content display styles */
+.bodyrow{
+    display: flex;
+    flex-wrap: wrap;
+}
+/* body content display styles */
+.bodycols{
+    width:31.75%;
+    padding: 10px;
+}
+/* banner1 */
+.banner{
+    padding:20px;
+    width:400px; 
+    height:200px;
+}
+
+/* votenow button */
+.votebtn{
+    padding:10px;
+    background-color: rgb(84, 194, 84);
+    
+}
+
+.votebtn:hover{
+    color: red;
+    border-color: red;
+}
+
+/* welcome text and its description styling */
+.homewelcome{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Lato', sans-serif;
+    padding:20px 0px 0px 0px;
+    
+}
+.homewelcomedes{
+    text-align: center;
+    font-size: 20px;
+    width:33%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+
+/* registe buttons organizer ad voter */
+.bottomRegisterBtn{
+    width:49.9%;
+    margin-top: 40px;
+    margin-bottom: 100px;
+    height:50px;
+}
+
+/* signup organizer button design bottom*/
+#signuporganizerbutton{
+    display: block;
+    float:right;
+    width:200px;
+    margin-right: 20px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+    height:50px;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: lightskyblue;
+}
+
+/* organizer button animation*/
+#signuporganizerbutton:hover{
+    background-color: lightgreen;
+} 
+
+#signuporganizerbutton span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+#signuporganizerbutton span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #signuporganizerbutton:hover span {
+    padding-right: 25px;
+  }
+  
+  #signuporganizerbutton:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+/* voter signup button bottom */
+#signupvoterbtn{
+    display: block;
+    margin-left: 20px;
+    width:200px;
+    height:50px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 18px;
+    transition: all 0.5s;
+    cursor: pointer;
+    background-color: lightskyblue;
+}
+
+/* Voter button animation*/
+#signupvoterbtn:hover{
+    background-color: lightgreen;
+} 
+
+#signupvoterbtn span{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+
+#signupvoterbtn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #signupvoterbtn:hover span {
+    padding-right: 25px;
+  }
+  
+  #signupvoterbtn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+/* div{
+    border:0.2px solid black;
+} */
+
+
